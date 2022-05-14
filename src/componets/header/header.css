@@ -1,0 +1,20 @@
+.todo {
+  background: url("https://remotelyours.io/assets/svgs/left.svg") left top
+      no-repeat,
+    url("https://remotelyours.io/assets/svgs/right.svg") right bottom no-repeat;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  /* -webkit-box-pack: center; */
+  justify-content: center;
+  width: 100vw;
+}
+
+.bg-todo {
+  background: linear-gradient(
+    158.15deg,
+    rgb(2, 83, 164) -23.86%,
+    rgb(153, 0, 255) 102.9%
+  );
+}
